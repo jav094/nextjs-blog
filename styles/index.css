@@ -1,6 +1,13 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
+body {
+    color: #ffffff;
+}
+
+#__next {
+    background-color: #3883EF;
+}
 
 /* Start purging... */
 @tailwind components;
