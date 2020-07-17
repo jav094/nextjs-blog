@@ -1,11 +1,21 @@
 import Container from './container'
-import { EXAMPLE_PATH } from '../lib/constants'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
     <footer>
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
+        <div className="py-28 flex flex-row justify-center">
+          <Link as={`/about`} href="/about">
+            <a className="underline pr-5" aria-label="About">About</a>
+          </Link>
+
+          <a className="underline pr-5" href="https://twitter.com/justcallmejuan">Twitter</a>
+          <a className="underline pr-5" href="https://www.instagram.com/juan_v2.1_final_copy.psd/">Instagram</a>
+          <a className="underline pr-5" href="https://medium.com/@justcallmejuan">Medium</a>
+          <a className="underline pr-5" href="/assets/JuanValera-CV.pdf" download>Resumé</a>
+          <a className="underline pr-5" href="mailto:jav094@gmail.com">Hire</a>
+{/* 
           <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Statically Generated with Next.js.
           </h3>
@@ -17,12 +27,12 @@ export default function Footer() {
               Read Documentation
             </a>
             <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+              href={`#`}
               className="mx-3 font-bold hover:underline"
             >
               View on GitHub
             </a>
-          </div>
+          </div> */}
         </div>
       </Container>
     </footer>
