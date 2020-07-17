@@ -1,6 +1,6 @@
 ---
 title: 'NDA Work WOW'
-excerpt: 'this is as thing that you cannot look at'
+excerpt: 'This project is under NDA, please get in touch to learn more'
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 heroPost: false
