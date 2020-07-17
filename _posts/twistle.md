@@ -1,12 +1,12 @@
 ---
-title: 'YAMUM HA a health communications platform | Juan Valera'
+title: 'Twistle'
 excerpt: 'Twistle is a communications app that enables providers, their services, and their patients to communicate through text messages, photos, and more.'
-coverImage: '/assets/blog/hello-world/cover.jpg'
+coverImage: '/assets/twistle/cover.jpg'
 date: '2014-03-14'
-heroPost: true
+heroPost: false
 underNDA: false
 ogImage:
-  url: '/assets/blog/hello-world/cover.jpg'
+  url: '/assets/twistle/cover.jpg'
 ---
 
 # Redesigning Twistle– a health communications platform

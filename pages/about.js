@@ -31,7 +31,7 @@ export function About() {
 
     <section className="flex mb-12">
       <div className="bg-red w-1/3 mr-10">
-        <img className="" src="/assets/blog/authors/juan.jpg" alt="Photo of Juan Valera"/>
+        <img className="" src="/assets/authors/juan.jpg" alt="Photo of Juan Valera"/>
       </div>
       
       <p className="w-2/3">
