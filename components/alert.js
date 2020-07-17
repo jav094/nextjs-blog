@@ -5,7 +5,7 @@ import { EXAMPLE_PATH } from '../lib/constants'
 export default function Alert({ preview }) {
   return (
     <Container>
-      <div className="py-2 text-center text-md">
+      <div className="py-5 text-center text-lg">
         {preview ? (
           <>
             This is page is a preview.{' '}
@@ -19,11 +19,17 @@ export default function Alert({ preview }) {
           </>
         ) : (
           <>
-            Black Lives Matter.{' '}
+            Black Lives Matter—
+            <a
+              href={`https://blacklives.help`}
+              className="underline hover:text-gray-400 duration-200 transition-colors">
+                donate
+            </a>
+            {' '}&{' '}
             <a
               href={`https://time.com/5849721/how-to-help-black-lives-matter-protests/`}
-              className="underline hover:text-success duration-200 transition-colors">
-                Here's how you can help
+              className="underline hover:text-gray-400 duration-200 transition-colors">
+                learn
             </a>
           </>
         )}
