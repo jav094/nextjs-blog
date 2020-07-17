@@ -2,7 +2,7 @@
 title: 'Twistle'
 excerpt: 'Twistle is a communications app that enables providers, their services, and their patients to communicate through text messages, photos, and more.'
 coverImage: '/assets/twistle/cover.jpg'
-date: '2014-03-14'
+date: '2020-07-17T20:28:39+00:00'
 heroPost: false
 underNDA: false
 ogImage:
