@@ -1,11 +1,10 @@
 ---
-title: 'Redesigning Twistle– a health communications platform | Juan Valera'
+title: 'YAMUM HA a health communications platform | Juan Valera'
 excerpt: 'Twistle is a communications app that enables providers, their services, and their patients to communicate through text messages, photos, and more.'
 coverImage: '/assets/blog/hello-world/cover.jpg'
 date: '2014-03-14'
-author:
-  name: Juan valera
-  picture: '/assets/blog/authors/tim.jpeg'
+heroPost: true
+underNDA: false
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 ---
@@ -143,26 +142,3 @@ If you enjoyed this, please clap to help others find it more easily.
 I’m Juan Valera, a product designer in Seattle, WA. You can see what I’m up to on my personal site and on Twitter! Designer https://www.juanv.io
 
 This post first was first published on Medium: https://read.compassofdesign.com/redesigning-twistle-a-health-communications-platform-b0a6df8c2aa
-
-
-
-
-
-Juan Valera
-WRITTEN BY
-
-Juan Valera
-
-Compass of Design
-Compass of Design
-Following
-Some of the best design articles written by members of the Compass of Design Community to help you strengthen your skills in design, business/freelance, and marketing yourself.
-Discover Medium
-Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight. Watch
-Make Medium yours
-Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox. Explore
-Explore your membership
-Thank you for being a member of Medium. You get unlimited access to insightful stories from amazing thinkers and storytellers. Browse
-About
-Help
-Legal

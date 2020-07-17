@@ -8,13 +8,24 @@ import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 
 export default function Index({ allPosts }) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+  let heroPost = null
+  let morePosts = Array()
+
+  // Separate hero post and more posts using frontmatter
+  {allPosts.map((value, index) => {
+    if (value.heroPost === true) {
+      heroPost = allPosts[index]
+    }
+    else {
+      morePosts.push(value)
+    }
+  })}
+
   return (
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>Juan Valera - Product Designer</title>
         </Head>
         <Container>
           <Intro />
@@ -23,7 +34,6 @@ export default function Index({ allPosts }) {
               title={heroPost.title}
               coverImage={heroPost.coverImage}
               date={heroPost.date}
-              author={heroPost.author}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
@@ -40,9 +50,10 @@ export async function getStaticProps() {
     'title',
     'date',
     'slug',
-    'author',
     'coverImage',
     'excerpt',
+    'heroPost',
+    'underNDA'    
   ])
 
   return {
